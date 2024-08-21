@@ -1,8 +1,17 @@
+# Core LlamaIndex packages
 llama-index
 llama-index-core
 llama-index-embeddings-openai
 llama-index-llms-openai
+llama-index-llms-anthropic
 # llama-index-postprocessor-flag-embedding-reranker
 # git+https://github.com/FlagOpen/FlagEmbedding.git
+
+
+# Additional packages
 llama-parse
 python-dotenv
+arize-phoenix[llama-index]
+arize-phoenix[evals]
+llama-hub
+html2text
