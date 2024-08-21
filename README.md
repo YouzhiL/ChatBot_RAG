@@ -28,19 +28,19 @@ Implement a chatbot augmented with customized database.
 - `SummaryExtractor`: Generate Summaries of the text contained by the node. (claude-3-opus-20240229 is slow in this task)
 - `OpenAIEmbedding`: deault model trained to produce embeddings that effectively capture semantic meanings of the text.
 
-2. Build Index
+3. Build Index
 `VectorStoreIndex`: The workhorse in most RAG applications. Used for efficient querying because it allows for similarity searches over the embedded representations of the text.
 - Similarity Search: When a query is made, the query text will be embedded and compared against the stored vectors using a similarity measure identified with cosine similarity. Cosine similarity measures the cosine of the angle between two vectors. The smaller the angle between them, the more similar they are.
 - Local embedding: a well-balanced default model provided by Hugging Face.
 
 `TreeIndex`: Generated bt LLM. Useful for summarization. (not used in base parser)
 
-3. Store Index (TO-DO)
+4. Store Index (TO-DO)
 - Local store: persist and load from disk.
 - Vector Database: Picone, CheomaDB, etc.
 
 
-4. Build QueryEngine
+5. Build QueryEngine
 QueryEngine is an interface that process natural language queries to generate rich responses. It often relies on one or more indexes through retrievers and can also be combined with other query engines for enhanced capabilities.
 - high-level API
 
