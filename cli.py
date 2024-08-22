@@ -10,7 +10,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "parser_type",
         choices=["base_parse", "llama_parse"],
-        help="Choose between 'base_parse' or 'llama_parse(to do)'."
+        help="Choose between 'base_parse' or 'llama_parse'."
     )
 
     # Add an argument for file paths

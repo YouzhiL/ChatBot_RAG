@@ -144,18 +144,6 @@ def run_base_parse(file_paths):
     memory=memory,
     system_prompt= "You are an expert of information retriever. When asked a question, you are able to find the answer in the documents provided."
   )
-  
-  # doc_parser = LlamaParse(result_type="markdown", verbose=True)
-  # documents = doc_parser.load_data(file_paths)
-  # contents = []
-
-  # Settings.llm = llm
-  # Settings.embed_model = embed_model
-  # documents = load_documents("data/n_beats.pdf")
-  # page_nodes = get_page_nodes(docs=documents)
-  # base_nodes, index_nodes = split_to_nodes(documents)
-  # recursive_query_engine = build_vec_index(base_nodes, index_nodes, page_nodes)
-  # recursive_query_engine = build_vec_index(base_nodes)
 
   prompt = input("Please enter the question. Enter q to exit: \n")
   while prompt != "q" and prompt != "Q":
