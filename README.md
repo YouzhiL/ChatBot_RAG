@@ -1,9 +1,13 @@
 # ChatBot_RAG
 Implement a chatbot augmented with customized database.
 
-## Install
+## Local Environment Install
 
 ```pip install -r requirements.txt```
+
+## Docker Install
+```docker build -t llama-index-app .```
+```docker run --rm -it llama-index-app:latest /bin/bash```
 
 ## Run
 
