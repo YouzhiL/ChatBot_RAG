@@ -7,6 +7,7 @@ Implement a chatbot augmented with customized database.
 
 ## Docker Install
 ```docker build -t llama-index-app .```
+
 ```docker run --rm -it llama-index-app:latest /bin/bash```
 
 ## Run

@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 import phoenix as px
 
 
-from global_setting import PIPELINE_CACHE, INDEX_STORAGE, CONVERSATION_FILE
+from global_setting import BASE_PIPELINE_CACHE, INDEX_STORAGE, CONVERSATION_FILE
 # from page_nodes_generator import get_page_nodes
 # from document_loader import load_documents
 # from md_node_parser import split_to_nodes
@@ -43,7 +43,7 @@ def run_base_parse(file_paths):
   
   ### Build nodes
   try:
-    cached_hashes = IngestionCache.from_persist_path(PIPELINE_CACHE)
+    cached_hashes = IngestionCache.from_persist_path(BASE_PIPELINE_CACHE)
   except:
     cached_hashes = None
     
@@ -57,7 +57,7 @@ def run_base_parse(file_paths):
   )
   
   nodes = pipeline.run(documents=documents)
-  pipeline.persist(PIPELINE_CACHE)
+  pipeline.persist(BASE_PIPELINE_CACHE)
   print("Finish building nodes")
   
   
