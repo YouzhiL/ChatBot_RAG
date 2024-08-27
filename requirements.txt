@@ -16,3 +16,4 @@ arize-phoenix[llama-index]
 arize-phoenix[evals]
 llama-hub==0.0.79.post1
 html2text==2024.2.26
+PyMuPDF==1.24.9
