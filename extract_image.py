@@ -34,3 +34,4 @@ def extract_image_from_pdfs(file_paths):
         # image_metadata_dict["img_discription"] = image_discription
   return image_metadata_dict
         
+extract_image_from_pdfs(["data/Deep_Residual_Learning.pdf"])

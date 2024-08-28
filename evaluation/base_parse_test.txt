@@ -1,0 +1,41 @@
+Please enter the question. Enter q to exit: 
+项目名称是什么
+项目名称是：5万吨/年混合戊烷综合利用项目。
+Please enter the question. Enter q to exit: 
+项目类型是什么
+项目类型是：5万吨/年混合戊烷综合利用项目。
+Please enter the question. Enter q to exit: 
+所属区域是什么
+所属区域是：青岛经济技术开发区。
+Please enter the question. Enter q to exit: 
+初步投资是多少
+初步投资是：51412万元（即5.1412亿元）。
+Please enter the question. Enter q to exit: 
+此项目有哪些安全设计防护
+此项目的安全设计防护措施包括：
+
+1. 强调工业生产中的安全优先原则。
+2. 实施五级安全保护系统。
+3. 建立统一的HSE（健康、安全与环境）管理体系。
+4. 在生产过程中采用先进的本质安全理念。
+5. 进行消防安全设计，符合消防安全规范。
+6. 定期对员工进行安全培训。
+7. 综合事故预防措施，包括初步的HAZOP（危险与可操作性研究）分析。
+Please enter the question. Enter q to exit: 
+此项目运用了哪些软件
+此项目运用了以下软件：
+
+- AspenPlus V10.0
+- AspenPlus Dynamics
+- Matlab
+- Aspen EnergyAnalyzer
+- SW6-2011
+- Exchanger Design and Rating
+- AutoCAD
+- SmartPlant3D
+- Sketchup
+- HAZOPkit
+- ALOHA
+- Lumion 6.5.1
+- Adobe Premiere Pro
+- 喵影工厂 (Miao Ying Factory)
